@@ -1,0 +1,46 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: lightgrey;
+}
+
+.display {
+    background-color: darkGrey;
+    width: 100%;
+    font-size: 42px;
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+.buttons {
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.number {
+    background-color: grey;
+}
+
+.operator {
+    background-color: lightblue;
+}
+
+.equals {
+    background-color: turquoise;
+}
+
+.clear {
+    background-color: lightgreen;
+}
